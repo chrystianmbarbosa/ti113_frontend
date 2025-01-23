@@ -1,0 +1,41 @@
+/* Importando a Fonte Varela Round */
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+body {
+    font-family: 'Varela Round', sans-serif;
+    color: #666;
+}
+
+table {
+    width: 50%;
+    border-color: white;
+}
+
+div.titulo {
+    display: inline-block;
+    margin: 20px 0;
+    width: 25%;
+    font-size: 30px;
+    text-align: left;
+}
+
+div.addButton {
+    display: inline-block;
+    width: 25%;
+    text-align: right;
+}
+
+div.addButton button {
+    border: 0;
+    padding: 8px 12px;
+
+    background-color: rgb(44, 159, 195);
+    color: white;
+    border-radius: 14px;
+}
+i.lapis{
+    color: gold;
+}
+i.lixo{
+    color: red;
+}
