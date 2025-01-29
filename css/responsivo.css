@@ -1,0 +1,123 @@
+@media (max-width: 600px) {
+
+    div#quad1 {
+        display: inline-block;
+        background-color: white;
+        border: 2px black solid;
+        width: 100px;
+        height: 100px;
+    }
+
+    div#quad2 {
+        display: inline-block;
+        background-color: black;
+        border: 3px red dotted;
+        width: 100px;
+        height: 100px;
+    }
+
+    div#quad3 {
+        display: inline-block;
+        background-color: yellow;
+        border: 2px blue dashed;
+        width: 100px;
+        height: 100px;
+    }
+    
+    div#quad4 {
+        display: inline-block;
+        background-color: blue;
+        border: 3px green solid;
+        width: 100px;
+        height: 100px;
+    }
+
+}
+@media (min-width:600px) {
+    div#quad1 {
+        display: inline-block;
+        background-color: yellow;
+        width: 100px;
+        height: 100px;
+    }
+
+    div#quad2 {
+        display: inline-block;
+        background-color: pink;
+        width: 100px;
+        height: 100px;
+    }
+
+    div#quad3 {
+        display: inline-block;
+        background-color: violet;
+        width: 100px;
+        height: 100px;
+    }
+    
+    div#quad4 {
+        display: inline-block;
+        background-color: black;
+        width: 100px;
+        height: 100px;
+    }
+}
+@media (min-width:800px) {
+    div#quad1 {
+        display: inline-block;
+        background-color: black;
+        width: 100px;
+        height: 100px;
+    }
+
+    div#quad2 {
+        display: inline-block;
+        background-color: #F00;
+        width: 100px;
+        height: 100px;
+    }
+
+    div#quad3 {
+        display: inline-block;
+        background-color: purple;
+        width: 100px;
+        height: 100px;
+    }
+    
+    div#quad4 {
+        display: inline-block;
+        background-color: blue;
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media (min-width:1000px) {
+    div#quad1 {
+        display: inline-block;
+        background-color: green;
+        width: 100px;
+        height: 100px;
+    }
+
+    div#quad2 {
+        display: inline-block;
+        background-color: yellow;
+        width: 100px;
+        height: 100px;
+    }
+
+    div#quad3 {
+        display: inline-block;
+        background-color: blue;
+        width: 100px;
+        height: 100px;
+    }
+    
+    div#quad4 {
+        display: inline-block;
+        background-color: grey;
+        width: 100px;
+        height: 100px;
+    }
+}
