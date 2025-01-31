@@ -1,0 +1,68 @@
+@import url("../css/reset.css");
+
+/* Somente Celular */
+@media only screen and (max-width:768px) {}
+
+/* Somente Tablet */
+@media only screen and (min-width:769px) {
+
+    *{
+        border-radius: 10px;
+    }
+
+    header {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100vw;
+        height: 5vw;
+    }
+
+    nav a {
+        background-color: #00b3ff;
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    section img {
+        margin: 0.5vw;
+        width: 100vw;
+        aspect-ratio: 16/9;
+    }
+
+    section.art {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width: 100vw;
+    }
+
+    section.art article {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 25vw;
+        margin: 0.5vw;
+        height: 300px;
+        background-color: #00b3ff;
+        color: white;
+
+    }
+    footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 10vh;
+        margin: 0.5vw;
+        background-color: #00b3ff;
+        color: white;
+    }
+
+}
+
+/* Somente Desktop */
+@media only screen and (min-width:992px) {}
