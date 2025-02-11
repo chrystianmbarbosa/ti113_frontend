@@ -73,24 +73,35 @@ form button {
     color: white;
     text-transform: uppercase;
 }
+
+form button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
 form hr {
     width: 85%;
 }
+
 form button.btnRegister {
     background-color: #0062ff;
 }
+
 form button.btnFacebook {
     background-color: #053763;
 }
+
 form button.btnGoogle {
     background-color: #ff3700;
 }
-form a{
+
+form a {
     text-decoration: none;
     text-align: center;
     font-size: 12px;
     margin: 0 10px 10px 10px;
 }
-form i{
+
+form i {
     margin-right: 5px;
 }
